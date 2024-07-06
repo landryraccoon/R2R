@@ -39,17 +39,17 @@ class SampleDataIngestor:
 
         return [
             os.path.join(examples_dir, "data", "aristotle.txt"),
-            # os.path.join(examples_dir, "data", "got.txt"),
-            # # os.path.join(examples_dir, "data", "screen_shot.png"),
-            # os.path.join(examples_dir, "data", "pg_essay_1.html"),
-            # os.path.join(examples_dir, "data", "pg_essay_2.html"),
-            # os.path.join(examples_dir, "data", "pg_essay_3.html"),
-            # os.path.join(examples_dir, "data", "pg_essay_4.html"),
-            # os.path.join(examples_dir, "data", "pg_essay_5.html"),
+            os.path.join(examples_dir, "data", "got.txt"),
+            os.path.join(examples_dir, "data", "screen_shot.png"),
+            os.path.join(examples_dir, "data", "pg_essay_1.html"),
+            os.path.join(examples_dir, "data", "pg_essay_2.html"),
+            os.path.join(examples_dir, "data", "pg_essay_3.html"),
+            os.path.join(examples_dir, "data", "pg_essay_4.html"),
+            os.path.join(examples_dir, "data", "pg_essay_5.html"),
             os.path.join(examples_dir, "data", "lyft_2021.pdf"),
-            # os.path.join(examples_dir, "data", "uber_2021.pdf"),
-            # os.path.join(examples_dir, "data", "sample.mp3"),
-            # os.path.join(examples_dir, "data", "sample2.mp3"),
+            os.path.join(examples_dir, "data", "uber_2021.pdf"),
+            os.path.join(examples_dir, "data", "sample.mp3"),
+            os.path.join(examples_dir, "data", "sample2.mp3"),
         ]
 
     def ingest_files(
